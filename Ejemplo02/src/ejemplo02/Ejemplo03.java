@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @author reroes
  */
 public class Ejemplo03 {
+
     public static void main(String[] args) {
         // Ingreso de datos por teclado
         // uso de la clase Scanner
@@ -19,11 +20,14 @@ public class Ejemplo03 {
         String nombre;
         String apellido;
         String nacimiento;
-        
-        System.out.println("Ingrese el nombre del estudiante");
+
+        System.out.println("Ingrese el nombre por favor del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
-                                    // por teclado
-        
+        // por teclado
+
+        /*
+                                    
+                                    
         System.out.println("Ingrese el apellido del estudiante");
         apellido = entrada.nextLine();
         
@@ -34,6 +38,7 @@ public class Ejemplo03 {
                 nombre,
                 apellido,
                 nacimiento);
-        
+         */
     }
+
 }
